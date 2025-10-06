@@ -3,7 +3,7 @@
 //myArray2D= {{1,2,3},{4,5,6},{7,8,9}};
  //sumDiagonalElements(myArray2D) # 15
 
-public class Diagnol_Elements_Sum.java {
+public class Diagnol_Elements_Sum {
     public static int sumDiagonalElements(int[][] array) {
         int sum = 0;
         int numRows = array.length;
@@ -15,3 +15,5 @@ public class Diagnol_Elements_Sum.java {
         return sum;
     }
 }
+
+// Time Complexity: O(n)
